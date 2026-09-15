@@ -2,8 +2,9 @@
 
 ## Overview
 
-Event-driven Azure integration solution for processing Purchase Orders
-using Azure Logic Apps and Azure Service Bus.
+Designed and implemented an event-driven integration pattern using Azure Logic Apps and Azure Service Bus. The Logic App publishes Purchase Order (PO) data to a Service Bus Topic. The topic has two independent subscribers, one for SAP and one for Salesforce.
+
+This Publisher → Topic → Subscribers architecture enables SAP and Salesforce to consume and process the same PO data independently without creating any dependency between the systems. This improves decoupling, scalability and maintainability, while allowing each system to process messages according to its own requirements.
 
 ## Architecture
 
