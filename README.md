@@ -21,20 +21,18 @@ SAP / Salesforce
 
 - Azure Logic Apps
 - Azure Service Bus
-- Azure API Management
 - Azure Resource Manager / ARM Templates
 
 ## Repository Contents
 
-- RG_APIM/template.json
-- RG_APIM/parameters.example.json
-- LogicApp/Receive_PO.json
+- template.json
+- parameters.json
+- LogicApp: Receive_PO.json
 
 ## Key Integration Concepts
 
 - Event-driven architecture
 - Asynchronous messaging
 - Azure integration patterns
-- API integration
 - Error handling
 - Infrastructure as Code
