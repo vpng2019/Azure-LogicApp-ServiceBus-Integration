@@ -376,17 +376,9 @@ This project demonstrates practical experience with:
 
 ---
 
-## Intended Use
-
-This repository is intended as a technical portfolio project demonstrating Azure integration design concepts.
-
-The implementation can be extended for additional enterprise consumers, message validation, transformation, retry handling, dead-letter processing, monitoring, and environment-specific deployment automation.
-
----
-
 ## Important Note
 
-The repository is provided for demonstration and portfolio purposes. Azure resource names, connection details, endpoints, subscription identifiers, credentials, and other environment-specific values should be replaced with the appropriate values for each deployment environment.
+Azure resource names, connection details, endpoints, subscription identifiers, credentials, and other environment-specific values should be replaced with the appropriate values for each deployment environment.
 
 Never publish confidential or production credentials in a public GitHub repository.
 
